@@ -1,0 +1,42 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "controllers": {
+      "$id": "/properties/controllers",
+      "type": "array",
+      "items": {
+        "$id": "/properties/controllers/items",
+        "type": "object",
+        "properties": {
+          "methodName": {
+            "$id": "/properties/controllers/items/properties/methodName",
+            "type": "string"
+          },
+          "requestMapping": {
+            "$id": "/properties/controllers/items/properties/requestMapping",
+            "type": "string"
+          },
+          "httpMethod": {
+            "$id": "/properties/controllers/items/properties/httpMethod",
+            "type": "string"
+          },
+          "className": {
+            "$id": "/properties/controllers/items/properties/className",
+            "type": "string"
+          },
+          "classFilePath": {
+            "$id": "/properties/controllers/items/properties/classFilePath",
+            "type": "string"
+          },
+          "alwaysAccessible": {
+            "$id": "/properties/controllers/items/properties/alwaysAccessible",
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

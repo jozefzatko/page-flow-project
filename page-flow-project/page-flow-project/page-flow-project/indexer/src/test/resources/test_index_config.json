@@ -1,0 +1,20 @@
+{
+  "projectName": "Spring Greenhouse",
+  "description": "https://github.com/spring-projects/greenhouse",
+  "author": "Jozef Zaťko",
+  "rootDirectory": "//greenhouse",
+  "fileTypes": [
+    {
+      "fileTypeName": "Java Source File",
+      "fileTypeDescription": "All Java source files from src/main/java directory",
+      "fileNameRegex": "^[A-Z].+\\.java",
+      "filePathRegex": "^src\\\\main\\\\java.+"
+    },
+    {
+      "fileTypeName": "JSP Source File",
+      "fileTypeDescription": "All JSP source files from src/main/webapp/WEB-INF/view directory",
+      "fileNameRegex": "^[^\\.]+\\.jsp",
+      "filePathRegex": "^src\\\\main\\\\webapp\\\\WEB-INF\\\\views.+"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "appLocation":"-",
+  "inputLocation":"-",
+  "outputLocation":"-",
+  "paramsList":[
+    {
+      "name":"support",
+      "shortHand":"s",
+      "value":"2",
+      "description":"The minimum number of times the sequence to be mined must be present in the Database"
+    },
+    {
+      "name":"gamma",
+      "shortHand":"g",
+      "value":"0",
+      "description":"The maximum amount of gap that can be taken for a sequence to be mined by MG-FSM"
+    },
+    {
+      "name":"lambda",
+      "shortHand":"l",
+      "value":"20",
+      "description":"The maximum length of the sequence to be mined is determined by the this parameter."
+    }
+  ]
+}

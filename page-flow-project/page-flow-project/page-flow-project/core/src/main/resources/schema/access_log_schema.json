@@ -1,0 +1,46 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "$id": "http://example.com/example.json",
+  "properties": {
+    "logs": {
+      "type": "array",
+      "$id": "/properties/logs",
+      "items": {
+        "type": "object",
+        "$id": "/properties/logs/items",
+        "properties": {
+          "clientIpAddress": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/clientIpAddress"
+          },
+          "timestamp": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/timestamp"
+          },
+          "httpMethod": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/httpMethod"
+          },
+          "httpRequestPath": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/httpRequestPath"
+          },
+          "responseCode": {
+            "type": "integer",
+            "$id": "/properties/logs/items/properties/responseCode"
+          },
+          "userAgent": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/userAgent"
+          },
+          "userSessionId": {
+            "type": "string",
+            "$id": "/properties/logs/items/properties/userSessionId"
+          }
+        }
+      }
+    }
+  }
+}

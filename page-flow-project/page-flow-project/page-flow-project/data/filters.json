@@ -1,0 +1,41 @@
+{
+  "httpMethodFilters": [{
+    "httpMethods": ["GET", "POST", "PUT", "DELETE"],
+    "includeMatched": true,
+    "excludeMatched": false
+  }
+  ],
+  "httpRequestPathRegexFilters": [{
+    "requestPathRegex": ".+\\.css",
+    "includeMatched": false,
+    "excludeMatched": true
+  }, {
+    "requestPathRegex": ".+\\.js",
+    "includeMatched": false,
+    "excludeMatched": true
+  }, {
+    "requestPathRegex": ".+\\.jpg",
+    "includeMatched": false,
+    "excludeMatched": true
+  }, {
+    "requestPathRegex": ".+\\.gif",
+    "includeMatched": false,
+    "excludeMatched": true
+  }, {
+    "requestPathRegex": ".+\\.png",
+    "includeMatched": false,
+    "excludeMatched": true
+  }
+  ],
+  "responseCodeFilters": [{
+    "responseCodes": [500],
+    "includeMatched": false,
+    "excludeMatched": true
+  }
+  ],
+  "urlRegexFilters": [{
+    "urlRegex": ".+\\.css",
+    "includeMatched": false,
+    "excludeMatched": true
+  }]
+}

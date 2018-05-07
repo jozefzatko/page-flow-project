@@ -1,0 +1,41 @@
+{
+	"projectName": "Spring Greenhouse",
+	"description": "https://github.com/spring-projects/greenhouse",
+	"author": "Jozef Zaťko",
+	"rootDirectory": "//greenhouse",
+	"fileTypes": [{
+			"fileTypeName": "Java Source File",
+			"fileTypeDescription": "All Java source files from src/main/java directory",
+			"fileNameRegex": "^[A-Z].+\\.java",
+			"filePathRegex": "^src\\\\main\\\\java.+"
+		}, {
+			"fileTypeName": "JUnit Test File",
+			"fileTypeDescription": "All JUnit test files from src/test/java directory",
+			"fileNameRegex": "^[A-Z].+\\.java",
+			"filePathRegex": "^src\\\\test\\\\java.+"
+		}, {
+			"fileTypeName": "JSP Source File",
+			"fileTypeDescription": "All JSP source files from src/main/webapp/WEB-INF/view directory",
+			"fileNameRegex": "^[^\\.]+\\.jsp",
+			"filePathRegex": "^src\\\\main\\\\webapp\\\\WEB-INF\\\\views.+"
+		},
+		{
+			"fileTypeName": "Tiles: Common JSP Source File",
+			"fileTypeDescription": "All JSP source files from src/main/webapp/layouts/standard directory",
+			"fileNameRegex": "^[^\\.]+\\.jsp",
+			"filePathRegex": "^src\\\\main\\\\webapp\\\\WEB-INF\\\\layouts\\\\standard.+"
+		},
+		{
+			"fileTypeName": "JS Source File",
+			"fileTypeDescription": "All JS source files from src/main/webapp directory",
+			"fileNameRegex": "^[^\\.]+\\.js",
+			"filePathRegex": "^src\\\\main\\\\webapp.+"
+		},
+		{
+			"fileTypeName": "tiles.xml",
+			"fileTypeDescription": "Apache Tiles config file for views",
+			"fileNameRegex": "tiles.xml",
+			"filePathRegex": "^src\\\\main\\\\webapp\\\\WEB-INF\\\\views.+"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+/&GET /settings&GET
+/&GET /signin&GET
+/&GET /signup&GET
+/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET
+/&GET /develop/apps&GET
+/develop/apps&GET /develop/apps/{slug}&GET
+/&GET /invite&GET
+/develop/apps/new&GET /develop/apps&POST
+/invite&GET /invite/twitter&GET /invite/twitter&POST
+/&GET /signup&GET /signup&POST
+/invite&GET /invite/mail&GET
+/&GET /groups/{group}/events/{year}/{month}/{slug}&GET
+/develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET
+/invite&GET /invite/mail&GET /invite/mail&POST
+/&GET /develop/apps&GET /develop/apps/{slug}&GET
+/&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET
+/&GET /invite&GET /invite/twitter&GET /invite/twitter&POST
+/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST
+/develop/apps/{slug}&GET /develop/apps&GET
+/&GET /signup&GET /signup&POST /signup&POST
+/&GET /signin&GET /reset&GET
+/develop/apps/{slug}&GET /develop/apps/{slug}&GET
+/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET
+/settings&GET /invite&GET
+/&GET /&GET
+/&GET /develop/apps&GET /develop/apps/{slug}&GET /develop/apps&GET
+/&GET /invite&GET /invite/mail&GET
+/reset&GET /reset&POST
+/settings&GET /settings&GET
+/&GET /develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET
+/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&GET
+/&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST
+/groups/{group}/events/{year}/{month}/{slug}&GET /invite&GET /invite/mail&GET /invite/mail&POST
+/settings&GET /invite&GET /settings&GET
+/&GET /signup&GET /signin&GET
+/develop/apps&GET /settings&GET
+/settings&GET /develop/apps&GET
+/signin&GET /signin&GET
+/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&GET
+/signin&GET /&GET /signup&GET
+/signup&GET /signup&POST /&GET
+/develop/apps/{slug}&GET /settings&GET
+/invite/mail&GET /develop/apps&GET
+/develop/apps&GET /invite&GET
+/invite&GET /develop/apps&GET
+/develop/apps/edit/{slug}&GET /develop/apps&GET
+/&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&POST /invite/mail&POST /invite/mail&POST
+/develop/apps&GET /groups/{group}/events/{year}/{month}/{slug}&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&GET
+/&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET
+/invite&GET /invite/twitter&GET /invite/twitter&POST /invite/twitter&POST /invite/twitter&POST /invite/twitter&POST
+/&GET /signup&GET /signup&POST /signup&POST /signup&POST
+/develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET
+/invite&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET
+/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&GET /&GET
+/develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET /develop/apps/{slug}&GET
+/&GET /signin&GET /reset&GET /reset&POST
+/signup&GET /signup&POST /&GET /settings&GET
+/&GET /signin&GET /&GET /signup&GET
+/invite&GET /invite/twitter&GET /invite/twitter&POST /develop/apps&GET
+/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps&POST
+/reset&GET /reset&POST /reset&POST
+/settings&GET /&GET /settings&GET
+/&GET /&GET /signin&GET
+/&GET /settings&GET /invite&GET
+/develop/apps&GET /settings&GET /invite&GET
+/settings&GET /settings&GET /develop/apps&GET
+/&GET /signin&GET /signin&GET
+/develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps&GET
+/develop/apps/{slug}&GET /develop/apps/{slug}&GET /settings&GET
+/groups/{group}/events/{year}/{month}/{slug}&GET /develop/apps&GET
+/&GET /reset&GET
+/invite/mail&GET /invite&GET
+/groups/{group}/events/{year}/{month}/{slug}&GET /groups/{group}/events/{year}/{month}/{slug}&GET
+/signup&GET /&GET
+/settings&GET /signin&GET

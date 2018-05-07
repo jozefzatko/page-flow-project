@@ -1,0 +1,156 @@
+2017-11-10 20:17:39 INFO  MGFSMExecServiceImpl:64 - sunny New York	3
+2017-11-10 20:17:39 INFO  MGFSMExecServiceImpl:64 - a sunny New	3
+2017-11-10 20:17:39 INFO  MGFSMExecServiceImpl:64 - New York	3
+2017-11-10 20:17:39 INFO  MGFSMExecServiceImpl:64 - sunny New	3
+2017-11-10 20:17:39 INFO  MGFSMExecServiceImpl:64 - a sunny	3
+2017-11-10 20:18:55 INFO  MGFSMExecServiceImpl:64 - sunny New York	3
+2017-11-10 20:18:55 INFO  MGFSMExecServiceImpl:64 - a sunny New	3
+2017-11-10 20:18:55 INFO  MGFSMExecServiceImpl:64 - New York	3
+2017-11-10 20:18:55 INFO  MGFSMExecServiceImpl:64 - sunny New	3
+2017-11-10 20:18:55 INFO  MGFSMExecServiceImpl:64 - a sunny	3
+2017-11-10 20:22:12 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-10 20:22:12 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-10 20:22:12 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-10 20:22:12 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-10 20:22:12 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-10 20:23:20 INFO  MGFSMExecServiceImpl:70 - sunny New York	3
+2017-11-10 20:23:20 INFO  MGFSMExecServiceImpl:70 - a sunny New	3
+2017-11-10 20:23:20 INFO  MGFSMExecServiceImpl:70 - New York	3
+2017-11-10 20:23:20 INFO  MGFSMExecServiceImpl:70 - sunny New	3
+2017-11-10 20:23:20 INFO  MGFSMExecServiceImpl:70 - a sunny	3
+2017-11-10 20:25:47 INFO  MGFSMExecServiceImpl:83 - sunny New York	3
+2017-11-10 20:25:47 INFO  MGFSMExecServiceImpl:83 - a sunny New	3
+2017-11-10 20:25:47 INFO  MGFSMExecServiceImpl:83 - New York	3
+2017-11-10 20:25:47 INFO  MGFSMExecServiceImpl:83 - sunny New	3
+2017-11-10 20:25:47 INFO  MGFSMExecServiceImpl:83 - a sunny	3
+2017-11-10 20:26:41 INFO  MGFSMExecServiceImpl:83 - sunny New York	3
+2017-11-10 20:26:41 INFO  MGFSMExecServiceImpl:83 - a sunny New	3
+2017-11-10 20:26:41 INFO  MGFSMExecServiceImpl:83 - New York	3
+2017-11-10 20:26:41 INFO  MGFSMExecServiceImpl:83 - sunny New	3
+2017-11-10 20:26:41 INFO  MGFSMExecServiceImpl:83 - a sunny	3
+2017-11-10 20:28:58 INFO  MGFSMExecServiceImpl:82 - sunny New York	3
+2017-11-10 20:28:58 INFO  MGFSMExecServiceImpl:82 - a sunny New	3
+2017-11-10 20:28:58 INFO  MGFSMExecServiceImpl:82 - New York	3
+2017-11-10 20:28:58 INFO  MGFSMExecServiceImpl:82 - sunny New	3
+2017-11-10 20:28:58 INFO  MGFSMExecServiceImpl:82 - a sunny	3
+2017-11-10 20:31:18 INFO  MGFSMExecServiceImpl:77 - sunny New York	3
+2017-11-10 20:31:18 INFO  MGFSMExecServiceImpl:77 - a sunny New	3
+2017-11-10 20:31:18 INFO  MGFSMExecServiceImpl:77 - New York	3
+2017-11-10 20:31:18 INFO  MGFSMExecServiceImpl:77 - sunny New	3
+2017-11-10 20:31:18 INFO  MGFSMExecServiceImpl:77 - a sunny	3
+2017-11-10 20:32:42 INFO  MGFSMExecServiceImpl:82 - sunny New York	3
+2017-11-10 20:32:42 INFO  MGFSMExecServiceImpl:82 - a sunny New	3
+2017-11-10 20:32:42 INFO  MGFSMExecServiceImpl:82 - New York	3
+2017-11-10 20:32:42 INFO  MGFSMExecServiceImpl:82 - sunny New	3
+2017-11-10 20:32:42 INFO  MGFSMExecServiceImpl:82 - a sunny	3
+2017-11-10 20:45:35 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-10 20:45:35 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-10 20:45:35 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-10 20:45:35 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-10 20:45:35 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-10 20:48:28 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-10 20:48:28 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-10 20:48:28 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-10 20:48:28 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-10 20:48:28 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-10 20:51:12 INFO  MGFSMExecServiceImpl:66 - sunny New York	3
+2017-11-10 20:51:12 INFO  MGFSMExecServiceImpl:66 - a sunny New	3
+2017-11-10 20:51:12 INFO  MGFSMExecServiceImpl:66 - New York	3
+2017-11-10 20:51:12 INFO  MGFSMExecServiceImpl:66 - sunny New	3
+2017-11-10 20:51:12 INFO  MGFSMExecServiceImpl:66 - a sunny	3
+2017-11-10 20:53:22 INFO  MGFSMExecServiceImpl:69 - sunny New York	3
+2017-11-10 20:53:22 INFO  MGFSMExecServiceImpl:69 - a sunny New	3
+2017-11-10 20:53:22 INFO  MGFSMExecServiceImpl:69 - New York	3
+2017-11-10 20:53:22 INFO  MGFSMExecServiceImpl:69 - sunny New	3
+2017-11-10 20:53:22 INFO  MGFSMExecServiceImpl:69 - a sunny	3
+2017-11-10 20:55:08 INFO  MGFSMExecServiceImpl:67 - sunny New York	3
+2017-11-10 20:55:08 INFO  MGFSMExecServiceImpl:67 - a sunny New	3
+2017-11-10 20:55:08 INFO  MGFSMExecServiceImpl:67 - New York	3
+2017-11-10 20:55:08 INFO  MGFSMExecServiceImpl:67 - sunny New	3
+2017-11-10 20:55:08 INFO  MGFSMExecServiceImpl:67 - a sunny	3
+2017-11-10 20:56:47 INFO  MGFSMExecServiceImpl:67 - sunny New York	3
+2017-11-10 20:56:47 INFO  MGFSMExecServiceImpl:67 - a sunny New	3
+2017-11-10 20:56:47 INFO  MGFSMExecServiceImpl:67 - New York	3
+2017-11-10 20:56:47 INFO  MGFSMExecServiceImpl:67 - sunny New	3
+2017-11-10 20:56:47 INFO  MGFSMExecServiceImpl:67 - a sunny	3
+2017-11-10 21:00:43 INFO  MGFSMExecServiceImpl:64 - sunny New York	3
+2017-11-10 21:00:43 INFO  MGFSMExecServiceImpl:64 - a sunny New	3
+2017-11-10 21:00:43 INFO  MGFSMExecServiceImpl:64 - New York	3
+2017-11-10 21:00:43 INFO  MGFSMExecServiceImpl:64 - sunny New	3
+2017-11-10 21:00:43 INFO  MGFSMExecServiceImpl:64 - a sunny	3
+2017-11-10 21:04:37 INFO  MGFSMExecServiceImpl:67 - sunny New York	3
+2017-11-10 21:04:37 INFO  MGFSMExecServiceImpl:67 - a sunny New	3
+2017-11-10 21:04:37 INFO  MGFSMExecServiceImpl:67 - New York	3
+2017-11-10 21:04:37 INFO  MGFSMExecServiceImpl:67 - sunny New	3
+2017-11-10 21:04:37 INFO  MGFSMExecServiceImpl:67 - a sunny	3
+2017-11-10 21:08:31 INFO  MGFSMExecServiceImpl:71 - sunny New York	3
+2017-11-10 21:08:31 INFO  MGFSMExecServiceImpl:71 - a sunny New	3
+2017-11-10 21:08:31 INFO  MGFSMExecServiceImpl:71 - New York	3
+2017-11-10 21:08:31 INFO  MGFSMExecServiceImpl:71 - sunny New	3
+2017-11-10 21:08:31 INFO  MGFSMExecServiceImpl:71 - a sunny	3
+2017-11-10 21:09:10 INFO  MGFSMExecServiceImpl:71 - sunny New York	3
+2017-11-10 21:09:10 INFO  MGFSMExecServiceImpl:71 - a sunny New	3
+2017-11-10 21:09:10 INFO  MGFSMExecServiceImpl:71 - New York	3
+2017-11-10 21:09:10 INFO  MGFSMExecServiceImpl:71 - sunny New	3
+2017-11-10 21:09:10 INFO  MGFSMExecServiceImpl:71 - a sunny	3
+2017-11-10 21:54:13 INFO  MGFSMExecServiceImpl:71 - sunny New York	3
+2017-11-10 21:54:13 INFO  MGFSMExecServiceImpl:71 - a sunny New	3
+2017-11-10 21:54:13 INFO  MGFSMExecServiceImpl:71 - New York	3
+2017-11-10 21:54:13 INFO  MGFSMExecServiceImpl:71 - sunny New	3
+2017-11-10 21:54:13 INFO  MGFSMExecServiceImpl:71 - a sunny	3
+2017-11-10 21:55:17 INFO  MGFSMExecServiceImpl:71 - sunny New York	3
+2017-11-10 21:55:17 INFO  MGFSMExecServiceImpl:71 - a sunny New	3
+2017-11-10 21:55:17 INFO  MGFSMExecServiceImpl:71 - New York	3
+2017-11-10 21:55:17 INFO  MGFSMExecServiceImpl:71 - sunny New	3
+2017-11-10 21:55:17 INFO  MGFSMExecServiceImpl:71 - a sunny	3
+2017-11-10 21:57:58 INFO  MGFSMExecServiceImpl:73 - sunny New York	3
+2017-11-10 21:57:58 INFO  MGFSMExecServiceImpl:73 - a sunny New	3
+2017-11-10 21:57:58 INFO  MGFSMExecServiceImpl:73 - New York	3
+2017-11-10 21:57:58 INFO  MGFSMExecServiceImpl:73 - sunny New	3
+2017-11-10 21:57:58 INFO  MGFSMExecServiceImpl:73 - a sunny	3
+2017-11-10 21:59:22 INFO  MGFSMExecServiceImpl:67 - sunny New York	3
+2017-11-10 21:59:22 INFO  MGFSMExecServiceImpl:67 - a sunny New	3
+2017-11-10 21:59:22 INFO  MGFSMExecServiceImpl:67 - New York	3
+2017-11-10 21:59:22 INFO  MGFSMExecServiceImpl:67 - sunny New	3
+2017-11-10 21:59:22 INFO  MGFSMExecServiceImpl:67 - a sunny	3
+2017-11-11 18:23:18 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-11 18:23:18 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-11 18:23:18 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-11 18:23:18 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-11 18:23:18 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-11 18:24:42 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-11 18:24:42 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-11 18:24:42 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-11 18:24:42 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-11 18:24:42 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-11 18:25:31 INFO  MGFSMExecServiceImpl:65 - sunny New York	3
+2017-11-11 18:25:31 INFO  MGFSMExecServiceImpl:65 - a sunny New	3
+2017-11-11 18:25:31 INFO  MGFSMExecServiceImpl:65 - New York	3
+2017-11-11 18:25:31 INFO  MGFSMExecServiceImpl:65 - sunny New	3
+2017-11-11 18:25:31 INFO  MGFSMExecServiceImpl:65 - a sunny	3
+2017-11-11 18:28:14 INFO  MGFSMExecServiceImpl:68 - sunny New York	3
+2017-11-11 18:28:14 INFO  MGFSMExecServiceImpl:68 - a sunny New	3
+2017-11-11 18:28:14 INFO  MGFSMExecServiceImpl:68 - New York	3
+2017-11-11 18:28:14 INFO  MGFSMExecServiceImpl:68 - sunny New	3
+2017-11-11 18:28:14 INFO  MGFSMExecServiceImpl:68 - a sunny	3
+2017-11-11 18:29:37 INFO  MGFSMExecServiceImpl:68 - sunny New York	3
+2017-11-11 18:29:37 INFO  MGFSMExecServiceImpl:68 - a sunny New	3
+2017-11-11 18:29:37 INFO  MGFSMExecServiceImpl:68 - New York	3
+2017-11-11 18:29:37 INFO  MGFSMExecServiceImpl:68 - sunny New	3
+2017-11-11 18:29:37 INFO  MGFSMExecServiceImpl:68 - a sunny	3
+2017-11-11 18:34:20 INFO  MGFSMExecServiceImpl:69 - sunny New York	3
+2017-11-11 18:34:20 INFO  MGFSMExecServiceImpl:69 - a sunny New	3
+2017-11-11 18:34:20 INFO  MGFSMExecServiceImpl:69 - New York	3
+2017-11-11 18:34:20 INFO  MGFSMExecServiceImpl:69 - sunny New	3
+2017-11-11 18:34:20 INFO  MGFSMExecServiceImpl:69 - a sunny	3
+2017-11-11 18:36:40 INFO  MGFSMExecServiceImpl:70 - sunny New York	3
+2017-11-11 18:36:40 INFO  MGFSMExecServiceImpl:70 - a sunny New	3
+2017-11-11 18:36:40 INFO  MGFSMExecServiceImpl:70 - New York	3
+2017-11-11 18:36:40 INFO  MGFSMExecServiceImpl:70 - sunny New	3
+2017-11-11 18:36:40 INFO  MGFSMExecServiceImpl:70 - a sunny	3
+2018-02-26 14:21:57 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@75828a0f: startup date [Mon Feb 26 14:21:57 CET 2018]; root of context hierarchy
+2018-02-26 14:21:59 INFO  PageFlowIdentifier:69 - Starting to identify page flows from access log: data//parsed_access_logs.json.
+2018-02-26 14:21:59 ERROR PageFlowIdentifier:87 - java.io.FileNotFoundException: data\parsed_access_logs.json (The system cannot find the path specified)
+2018-02-26 14:22:57 INFO  AnnotationConfigApplicationContext:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@75828a0f: startup date [Mon Feb 26 14:22:57 CET 2018]; root of context hierarchy
+2018-02-26 14:22:58 INFO  PageFlowIdentifier:69 - Starting to identify page flows from access log: data//parsed_access_logs.json.
+2018-02-26 14:22:58 ERROR PageFlowIdentifier:87 - java.io.FileNotFoundException: data\parsed_access_logs.json (The system cannot find the path specified)

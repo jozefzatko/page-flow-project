@@ -1,0 +1,68 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "$id": "http://example.com/example.json",
+  "properties": {
+    "author": {
+      "$id": "/properties/author",
+      "type": "string"
+    },
+    "description": {
+      "$id": "/properties/description",
+      "type": "string"
+    },
+    "fileTypes": {
+      "$id": "/properties/fileTypes",
+      "items": {
+        "$id": "/properties/fileTypes/items",
+        "properties": {
+          "fileItems": {
+            "$id": "/properties/fileTypes/items/properties/fileItems",
+            "items": {
+              "$id": "/properties/fileTypes/items/properties/fileItems/items",
+              "properties": {
+                "fileName": {
+                  "$id": "/properties/fileTypes/items/properties/fileItems/items/properties/fileName",
+                  "type": "string"
+                },
+                "filePath": {
+                  "$id": "/properties/fileTypes/items/properties/fileItems/items/properties/filePath",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "fileNameRegex": {
+            "$id": "/properties/fileTypes/items/properties/fileNameRegex",
+            "type": "string"
+          },
+          "filePathRegex": {
+            "$id": "/properties/fileTypes/items/properties/filePathRegex",
+            "type": "string"
+          },
+          "fileTypeDescription": {
+            "$id": "/properties/fileTypes/items/properties/fileTypeDescription",
+            "type": "string"
+          },
+          "fileTypeName": {
+            "$id": "/properties/fileTypes/items/properties/fileTypeName",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "projectName": {
+      "$id": "/properties/projectName",
+      "type": "string"
+    },
+    "rootDirectory": {
+      "$id": "/properties/rootDirectory",
+      "type": "string"
+    }
+  }
+}

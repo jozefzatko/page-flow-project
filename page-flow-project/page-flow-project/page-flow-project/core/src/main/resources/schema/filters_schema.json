@@ -1,0 +1,82 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "httpMethodFilters": {
+      "id": "/properties/httpMethodFilters", 
+      "items": {
+        "id": "/properties/httpMethodFilters/items", 
+        "properties": {
+          "excludeMatched": {
+            "id": "/properties/httpMethodFilters/items/properties/excludeMatched", 
+            "type": "boolean"
+          }, 
+          "httpMethods": {
+            "id": "/properties/httpMethodFilters/items/properties/httpMethods", 
+            "items": {
+              "id": "/properties/httpMethodFilters/items/properties/httpMethods/items", 
+              "type": "string"
+            }, 
+            "type": "array"
+          }, 
+          "includeMatched": {
+            "id": "/properties/httpMethodFilters/items/properties/includeMatched", 
+            "type": "boolean"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "httpRequestPathRegexFilters": {
+      "id": "/properties/httpRequestPathRegexFilters", 
+      "items": {
+        "id": "/properties/httpRequestPathRegexFilters/items", 
+        "properties": {
+          "excludeMatched": {
+            "id": "/properties/httpRequestPathRegexFilters/items/properties/excludeMatched", 
+            "type": "boolean"
+          }, 
+          "includeMatched": {
+            "id": "/properties/httpRequestPathRegexFilters/items/properties/includeMatched", 
+            "type": "boolean"
+          }, 
+          "requestPathRegex": {
+            "id": "/properties/httpRequestPathRegexFilters/items/properties/requestPathRegex", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "responseCodeFilters": {
+      "id": "/properties/responseCodeFilters", 
+      "items": {
+        "id": "/properties/responseCodeFilters/items", 
+        "properties": {
+          "excludeMatched": {
+            "id": "/properties/responseCodeFilters/items/properties/excludeMatched", 
+            "type": "boolean"
+          }, 
+          "includeMatched": {
+            "id": "/properties/responseCodeFilters/items/properties/includeMatched", 
+            "type": "boolean"
+          }, 
+          "responseCodes": {
+            "id": "/properties/responseCodeFilters/items/properties/responseCodes", 
+            "items": {
+              "id": "/properties/responseCodeFilters/items/properties/responseCodes/items", 
+              "type": "integer"
+            }, 
+            "type": "array"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }
+  }, 
+  "type": "object"
+}

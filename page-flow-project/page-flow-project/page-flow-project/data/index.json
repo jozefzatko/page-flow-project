@@ -1,0 +1,988 @@
+{
+  "projectName": "Spring Greenhouse",
+  "description": "https://github.com/spring-projects/greenhouse",
+  "author": "Jozef Zaťko",
+  "rootDirectory": "//greenhouse",
+  "fileTypes": [
+    {
+      "fileTypeName": "Java Source File",
+      "fileTypeDescription": "All Java source files from src/main/java directory",
+      "fileItems": [
+        {
+          "fileName": "Account.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\Account.java"
+        },
+        {
+          "fileName": "AccountException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\AccountException.java"
+        },
+        {
+          "fileName": "AccountMapper.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\AccountMapper.java"
+        },
+        {
+          "fileName": "AccountRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\AccountRepository.java"
+        },
+        {
+          "fileName": "AccountUtils.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\AccountUtils.java"
+        },
+        {
+          "fileName": "EmailAlreadyOnFileException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\EmailAlreadyOnFileException.java"
+        },
+        {
+          "fileName": "Gender.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\Gender.java"
+        },
+        {
+          "fileName": "GreenhousePasswordEncoder.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\GreenhousePasswordEncoder.java"
+        },
+        {
+          "fileName": "InvalidPasswordException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\InvalidPasswordException.java"
+        },
+        {
+          "fileName": "JdbcAccountRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\JdbcAccountRepository.java"
+        },
+        {
+          "fileName": "Person.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\Person.java"
+        },
+        {
+          "fileName": "PictureSize.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\PictureSize.java"
+        },
+        {
+          "fileName": "PictureUrlFactory.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\PictureUrlFactory.java"
+        },
+        {
+          "fileName": "PictureUrlMapper.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\PictureUrlMapper.java"
+        },
+        {
+          "fileName": "ProfileReference.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\ProfileReference.java"
+        },
+        {
+          "fileName": "SignInNotFoundException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\SignInNotFoundException.java"
+        },
+        {
+          "fileName": "UsernamePasswordAuthenticationProvider.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\account\\UsernamePasswordAuthenticationProvider.java"
+        },
+        {
+          "fileName": "Action.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\Action.java"
+        },
+        {
+          "fileName": "ActionFactory.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\ActionFactory.java"
+        },
+        {
+          "fileName": "ActionGateway.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\ActionGateway.java"
+        },
+        {
+          "fileName": "ActionRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\ActionRepository.java"
+        },
+        {
+          "fileName": "JdbcActionRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\JdbcActionRepository.java"
+        },
+        {
+          "fileName": "SimpleAction.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\action\\SimpleAction.java"
+        },
+        {
+          "fileName": "AwardedBadge.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\AwardedBadge.java"
+        },
+        {
+          "fileName": "BadgeAwarder.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\BadgeAwarder.java"
+        },
+        {
+          "fileName": "BadgeRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\BadgeRepository.java"
+        },
+        {
+          "fileName": "BadgeSystem.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\BadgeSystem.java"
+        },
+        {
+          "fileName": "BadgeSystemFactoryBean.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\BadgeSystemFactoryBean.java"
+        },
+        {
+          "fileName": "JdbcBadgeRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\JdbcBadgeRepository.java"
+        },
+        {
+          "fileName": "SimpleBadgeAwarder.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\SimpleBadgeAwarder.java"
+        },
+        {
+          "fileName": "StandardBadgeSystem.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\activity\\badge\\StandardBadgeSystem.java"
+        },
+        {
+          "fileName": "ComponentConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\ComponentConfig.java"
+        },
+        {
+          "fileName": "DataConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\DataConfig.java"
+        },
+        {
+          "fileName": "FileStoreConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\FileStoreConfig.java"
+        },
+        {
+          "fileName": "IntegrationConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\IntegrationConfig.java"
+        },
+        {
+          "fileName": "KeyValueConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\KeyValueConfig.java"
+        },
+        {
+          "fileName": "MailConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\MailConfig.java"
+        },
+        {
+          "fileName": "SecurityConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\SecurityConfig.java"
+        },
+        {
+          "fileName": "SocialConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\SocialConfig.java"
+        },
+        {
+          "fileName": "TaskConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\TaskConfig.java"
+        },
+        {
+          "fileName": "WebConfig.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\config\\WebConfig.java"
+        },
+        {
+          "fileName": "AccountSignInAdapter.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\connect\\AccountSignInAdapter.java"
+        },
+        {
+          "fileName": "FacebookConnectInterceptor.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\connect\\FacebookConnectInterceptor.java"
+        },
+        {
+          "fileName": "TwitterConnectInterceptor.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\connect\\TwitterConnectInterceptor.java"
+        },
+        {
+          "fileName": "DatabaseUpgrader.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\database\\DatabaseUpgrader.java"
+        },
+        {
+          "fileName": "CipherUtils.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\database\\upgrade\\v3\\CipherUtils.java"
+        },
+        {
+          "fileName": "UpdateEncryptionMethod.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\database\\upgrade\\v3\\UpdateEncryptionMethod.java"
+        },
+        {
+          "fileName": "App.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\App.java"
+        },
+        {
+          "fileName": "AppConnection.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\AppConnection.java"
+        },
+        {
+          "fileName": "AppController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\AppController.java"
+        },
+        {
+          "fileName": "AppForm.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\AppForm.java"
+        },
+        {
+          "fileName": "AppRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\AppRepository.java"
+        },
+        {
+          "fileName": "AppSummary.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\AppSummary.java"
+        },
+        {
+          "fileName": "InvalidAccessTokenException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\InvalidAccessTokenException.java"
+        },
+        {
+          "fileName": "InvalidApiKeyException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\InvalidApiKeyException.java"
+        },
+        {
+          "fileName": "JdbcAppRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\JdbcAppRepository.java"
+        },
+        {
+          "fileName": "NoSuchAccountConnectionException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\NoSuchAccountConnectionException.java"
+        },
+        {
+          "fileName": "AppClientDetailsService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\oauth\\AppClientDetailsService.java"
+        },
+        {
+          "fileName": "ConfirmAccessController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\oauth\\ConfirmAccessController.java"
+        },
+        {
+          "fileName": "InvalidRequestTokenException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\develop\\oauth\\InvalidRequestTokenException.java"
+        },
+        {
+          "fileName": "Event.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\Event.java"
+        },
+        {
+          "fileName": "EventRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\EventRepository.java"
+        },
+        {
+          "fileName": "EventsController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\EventsController.java"
+        },
+        {
+          "fileName": "EventSession.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\EventSession.java"
+        },
+        {
+          "fileName": "EventSessionLeader.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\EventSessionLeader.java"
+        },
+        {
+          "fileName": "JdbcEventRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\JdbcEventRepository.java"
+        },
+        {
+          "fileName": "EventData.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\EventData.java"
+        },
+        {
+          "fileName": "EventLoadController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\EventLoadController.java"
+        },
+        {
+          "fileName": "EventLoaderRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\EventLoaderRepository.java"
+        },
+        {
+          "fileName": "EventSessionData.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\EventSessionData.java"
+        },
+        {
+          "fileName": "JdbcEventLoaderRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\JdbcEventLoaderRepository.java"
+        },
+        {
+          "fileName": "LeaderData.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\LeaderData.java"
+        },
+        {
+          "fileName": "NFJSLoader.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\NFJSLoader.java"
+        },
+        {
+          "fileName": "TimeSlotData.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\TimeSlotData.java"
+        },
+        {
+          "fileName": "VenueData.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\load\\VenueData.java"
+        },
+        {
+          "fileName": "Rating.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\Rating.java"
+        },
+        {
+          "fileName": "RatingPeriodClosedException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\RatingPeriodClosedException.java"
+        },
+        {
+          "fileName": "Venue.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\events\\Venue.java"
+        },
+        {
+          "fileName": "Group.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\groups\\Group.java"
+        },
+        {
+          "fileName": "GroupRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\groups\\GroupRepository.java"
+        },
+        {
+          "fileName": "GroupsController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\groups\\GroupsController.java"
+        },
+        {
+          "fileName": "JdbcGroupRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\groups\\JdbcGroupRepository.java"
+        },
+        {
+          "fileName": "DateTimeZoneHandlerInterceptor.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\home\\DateTimeZoneHandlerInterceptor.java"
+        },
+        {
+          "fileName": "GlobalExceptionResolver.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\home\\GlobalExceptionResolver.java"
+        },
+        {
+          "fileName": "HomeController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\home\\HomeController.java"
+        },
+        {
+          "fileName": "UserLocationHandlerInterceptor.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\home\\UserLocationHandlerInterceptor.java"
+        },
+        {
+          "fileName": "FacebookInviteController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\FacebookInviteController.java"
+        },
+        {
+          "fileName": "Invite.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\Invite.java"
+        },
+        {
+          "fileName": "InviteAcceptAction.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\InviteAcceptAction.java"
+        },
+        {
+          "fileName": "InviteAlreadyAcceptedException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\InviteAlreadyAcceptedException.java"
+        },
+        {
+          "fileName": "InviteController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\InviteController.java"
+        },
+        {
+          "fileName": "Invitee.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\Invitee.java"
+        },
+        {
+          "fileName": "InviteException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\InviteException.java"
+        },
+        {
+          "fileName": "InviteRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\InviteRepository.java"
+        },
+        {
+          "fileName": "JdbcInviteRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\JdbcInviteRepository.java"
+        },
+        {
+          "fileName": "AsyncMailInviteService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\mail\\AsyncMailInviteService.java"
+        },
+        {
+          "fileName": "MailInviteController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\mail\\MailInviteController.java"
+        },
+        {
+          "fileName": "MailInviteForm.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\mail\\MailInviteForm.java"
+        },
+        {
+          "fileName": "MailInviteService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\mail\\MailInviteService.java"
+        },
+        {
+          "fileName": "NoSuchInviteException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\NoSuchInviteException.java"
+        },
+        {
+          "fileName": "TwitterInviteController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\invite\\TwitterInviteController.java"
+        },
+        {
+          "fileName": "ConnectedProfile.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\ConnectedProfile.java"
+        },
+        {
+          "fileName": "FileStorageProfilePictureService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\FileStorageProfilePictureService.java"
+        },
+        {
+          "fileName": "JdbcProfileRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\JdbcProfileRepository.java"
+        },
+        {
+          "fileName": "MembersController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\MembersController.java"
+        },
+        {
+          "fileName": "Profile.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\Profile.java"
+        },
+        {
+          "fileName": "ProfilePictureService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\ProfilePictureService.java"
+        },
+        {
+          "fileName": "ProfileRepository.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\members\\ProfileRepository.java"
+        },
+        {
+          "fileName": "AsyncResetPasswordMailer.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\AsyncResetPasswordMailer.java"
+        },
+        {
+          "fileName": "ChangePasswordForm.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ChangePasswordForm.java"
+        },
+        {
+          "fileName": "InvalidResetTokenException.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\InvalidResetTokenException.java"
+        },
+        {
+          "fileName": "JdbcRestPasswordService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\JdbcRestPasswordService.java"
+        },
+        {
+          "fileName": "ResetPasswordController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ResetPasswordController.java"
+        },
+        {
+          "fileName": "ResetPasswordMailer.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ResetPasswordMailer.java"
+        },
+        {
+          "fileName": "ResetPasswordMailMessageConverter.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ResetPasswordMailMessageConverter.java"
+        },
+        {
+          "fileName": "ResetPasswordRequest.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ResetPasswordRequest.java"
+        },
+        {
+          "fileName": "ResetPasswordService.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\reset\\ResetPasswordService.java"
+        },
+        {
+          "fileName": "SettingsController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\settings\\SettingsController.java"
+        },
+        {
+          "fileName": "AccountExposingHandlerInterceptor.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signin\\AccountExposingHandlerInterceptor.java"
+        },
+        {
+          "fileName": "SigninController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signin\\SigninController.java"
+        },
+        {
+          "fileName": "SignedUpGateway.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\SignedUpGateway.java"
+        },
+        {
+          "fileName": "SignupController.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\SignupController.java"
+        },
+        {
+          "fileName": "SignupForm.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\SignupForm.java"
+        },
+        {
+          "fileName": "SignupFormDeserializers.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\SignupFormDeserializers.java"
+        },
+        {
+          "fileName": "SignupHelper.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\SignupHelper.java"
+        },
+        {
+          "fileName": "WelcomeMailTransformer.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\signup\\WelcomeMailTransformer.java"
+        },
+        {
+          "fileName": "EmailUtils.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\EmailUtils.java"
+        },
+        {
+          "fileName": "GeoLocation.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\GeoLocation.java"
+        },
+        {
+          "fileName": "ImageUtils.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\ImageUtils.java"
+        },
+        {
+          "fileName": "Location.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\Location.java"
+        },
+        {
+          "fileName": "Message.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\Message.java"
+        },
+        {
+          "fileName": "MessageType.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\MessageType.java"
+        },
+        {
+          "fileName": "ResourceReference.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\ResourceReference.java"
+        },
+        {
+          "fileName": "SlugUtils.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\SlugUtils.java"
+        },
+        {
+          "fileName": "SubResourceReference.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\SubResourceReference.java"
+        },
+        {
+          "fileName": "VisualResourceReference.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\utils\\VisualResourceReference.java"
+        },
+        {
+          "fileName": "Confirm.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\validation\\Confirm.java"
+        },
+        {
+          "fileName": "ConfirmValidator.java",
+          "filePath": "src\\main\\java\\com\\springsource\\greenhouse\\validation\\ConfirmValidator.java"
+        },
+        {
+          "fileName": "FileData.java",
+          "filePath": "src\\main\\java\\org\\springframework\\data\\FileData.java"
+        },
+        {
+          "fileName": "FileStorage.java",
+          "filePath": "src\\main\\java\\org\\springframework\\data\\FileStorage.java"
+        },
+        {
+          "fileName": "LocalFileStorage.java",
+          "filePath": "src\\main\\java\\org\\springframework\\data\\LocalFileStorage.java"
+        },
+        {
+          "fileName": "S3FileStorage.java",
+          "filePath": "src\\main\\java\\org\\springframework\\data\\S3FileStorage.java"
+        },
+        {
+          "fileName": "JoinRowMapper.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\core\\JoinRowMapper.java"
+        },
+        {
+          "fileName": "AbstractDatabaseChange.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\AbstractDatabaseChange.java"
+        },
+        {
+          "fileName": "DatabaseChange.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\DatabaseChange.java"
+        },
+        {
+          "fileName": "DatabaseChangeSet.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\DatabaseChangeSet.java"
+        },
+        {
+          "fileName": "DatabaseUpgrader.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\DatabaseUpgrader.java"
+        },
+        {
+          "fileName": "DatabaseVersion.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\DatabaseVersion.java"
+        },
+        {
+          "fileName": "GenericDatabaseUpgrader.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\GenericDatabaseUpgrader.java"
+        },
+        {
+          "fileName": "SqlDatabaseChange.java",
+          "filePath": "src\\main\\java\\org\\springframework\\jdbc\\versioned\\SqlDatabaseChange.java"
+        },
+        {
+          "fileName": "FieldModel.java",
+          "filePath": "src\\main\\java\\org\\springframework\\model\\FieldModel.java"
+        },
+        {
+          "fileName": "FacebookHandlerMethodArgumentResolver.java",
+          "filePath": "src\\main\\java\\org\\springframework\\social\\facebook\\web\\FacebookHandlerMethodArgumentResolver.java"
+        },
+        {
+          "fileName": "DeviceHandlerMethodArgumentResolver.java",
+          "filePath": "src\\main\\java\\org\\springframework\\social\\mobile\\device\\DeviceHandlerMethodArgumentResolver.java"
+        },
+        {
+          "fileName": "DelegatingStringTemplate.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\DelegatingStringTemplate.java"
+        },
+        {
+          "fileName": "LocalStringTemplate.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\LocalStringTemplate.java"
+        },
+        {
+          "fileName": "ResourceStringTemplateFactory.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\ResourceStringTemplateFactory.java"
+        },
+        {
+          "fileName": "StandardStringTemplateLoader.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\StandardStringTemplateLoader.java"
+        },
+        {
+          "fileName": "StringTemplate.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\StringTemplate.java"
+        },
+        {
+          "fileName": "StringTemplateFactory.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\StringTemplateFactory.java"
+        },
+        {
+          "fileName": "StringTemplateLoader.java",
+          "filePath": "src\\main\\java\\org\\springframework\\templating\\StringTemplateLoader.java"
+        }
+      ]
+    },
+    {
+      "fileTypeName": "JUnit Test File",
+      "fileTypeDescription": "All JUnit test files from src/test/java directory",
+      "fileItems": [
+        {
+          "fileName": "JdbcAccountRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\account\\JdbcAccountRepositoryTest.java"
+        },
+        {
+          "fileName": "StubFileStorage.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\account\\StubFileStorage.java"
+        },
+        {
+          "fileName": "WelcomeMailTransformerTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\account\\WelcomeMailTransformerTest.java"
+        },
+        {
+          "fileName": "TwitterConnectInterceptorTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\connect\\TwitterConnectInterceptorTest.java"
+        },
+        {
+          "fileName": "GreenhouseDatabaseInstallerTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\database\\GreenhouseDatabaseInstallerTest.java"
+        },
+        {
+          "fileName": "GreenhouseTestDatabaseBuilder.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\database\\GreenhouseTestDatabaseBuilder.java"
+        },
+        {
+          "fileName": "JdbcAppRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\develop\\JdbcAppRepositoryTest.java"
+        },
+        {
+          "fileName": "JdbcEventRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\events\\JdbcEventRepositoryTest.java"
+        },
+        {
+          "fileName": "JdbcEventLoaderRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\events\\load\\JdbcEventLoaderRepositoryTest.java"
+        },
+        {
+          "fileName": "NFJSLoaderTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\events\\load\\NFJSLoaderTest.java"
+        },
+        {
+          "fileName": "JdbcGroupRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\groups\\JdbcGroupRepositoryTest.java"
+        },
+        {
+          "fileName": "InviteeTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\invite\\InviteeTest.java"
+        },
+        {
+          "fileName": "JdbcInviteRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\invite\\JdbcInviteRepositoryTest.java"
+        },
+        {
+          "fileName": "MailInviteServiceTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\invite\\mail\\MailInviteServiceTest.java"
+        },
+        {
+          "fileName": "JdbcProfileRepositoryTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\members\\JdbcProfileRepositoryTest.java"
+        },
+        {
+          "fileName": "SettingsControllerTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\settings\\SettingsControllerTest.java"
+        },
+        {
+          "fileName": "AccountExposingHandlerInterceptorTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\signin\\AccountExposingHandlerInterceptorTest.java"
+        },
+        {
+          "fileName": "SignupControllerTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\signup\\SignupControllerTest.java"
+        },
+        {
+          "fileName": "EmailUtilsTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\utils\\EmailUtilsTest.java"
+        },
+        {
+          "fileName": "SlugUtilsTest.java",
+          "filePath": "src\\test\\java\\com\\springsource\\greenhouse\\utils\\SlugUtilsTest.java"
+        },
+        {
+          "fileName": "Transactional.java",
+          "filePath": "src\\test\\java\\org\\springframework\\test\\transaction\\Transactional.java"
+        }
+      ]
+    },
+    {
+      "fileTypeName": "JSP Source File",
+      "fileTypeDescription": "All JSP source files from src/main/webapp/WEB-INF/view directory",
+      "fileItems": [
+        {
+          "fileName": "load.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\admin\\load.jsp"
+        },
+        {
+          "fileName": "facebookConnect.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\facebookConnect.jsp"
+        },
+        {
+          "fileName": "facebookConnected.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\facebookConnected.jsp"
+        },
+        {
+          "fileName": "linkedInConnect.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\linkedInConnect.jsp"
+        },
+        {
+          "fileName": "linkedInConnected.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\linkedInConnected.jsp"
+        },
+        {
+          "fileName": "tripItConnect.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\tripItConnect.jsp"
+        },
+        {
+          "fileName": "tripItConnected.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\tripItConnected.jsp"
+        },
+        {
+          "fileName": "twitterConnect.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\twitterConnect.jsp"
+        },
+        {
+          "fileName": "twitterConnected.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\twitterConnected.jsp"
+        },
+        {
+          "fileName": "appFormFragment.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\appFormFragment.jsp"
+        },
+        {
+          "fileName": "edit.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\edit.jsp"
+        },
+        {
+          "fileName": "list.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\list.jsp"
+        },
+        {
+          "fileName": "new.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\new.jsp"
+        },
+        {
+          "fileName": "view.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\view.jsp"
+        },
+        {
+          "fileName": "list.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\events\\list.jsp"
+        },
+        {
+          "fileName": "event.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\groups\\event.jsp"
+        },
+        {
+          "fileName": "view.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\groups\\view.jsp"
+        },
+        {
+          "fileName": "contentNotSignedIn.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\home\\contentNotSignedIn.jsp"
+        },
+        {
+          "fileName": "contentSignedIn.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\home\\contentSignedIn.jsp"
+        },
+        {
+          "fileName": "header.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\home\\header.jsp"
+        },
+        {
+          "fileName": "accept.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\accept.jsp"
+        },
+        {
+          "fileName": "invite.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\facebook\\invite.jsp"
+        },
+        {
+          "fileName": "invite.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\invite.jsp"
+        },
+        {
+          "fileName": "invite.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\mail\\invite.jsp"
+        },
+        {
+          "fileName": "friendFinder.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\twitter\\friendFinder.jsp"
+        },
+        {
+          "fileName": "friends.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\twitter\\friends.jsp"
+        },
+        {
+          "fileName": "view.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\members\\view.jsp"
+        },
+        {
+          "fileName": "confirmAccess.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\oauth\\confirmAccess.jsp"
+        },
+        {
+          "fileName": "changePassword.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\reset\\changePassword.jsp"
+        },
+        {
+          "fileName": "invalidToken.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\reset\\invalidToken.jsp"
+        },
+        {
+          "fileName": "reset.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\reset\\reset.jsp"
+        },
+        {
+          "fileName": "settings.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\settings\\settings.jsp"
+        },
+        {
+          "fileName": "signin.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\signin\\signin.jsp"
+        },
+        {
+          "fileName": "signup.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\signup\\signup.jsp"
+        }
+      ]
+    },
+    {
+      "fileTypeName": "Tiles: Common JSP Source File",
+      "fileTypeDescription": "All JSP source files from src/main/webapp/layouts/standard directory",
+      "fileItems": [
+        {
+          "fileName": "footer.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\layouts\\standard\\footer.jsp"
+        },
+        {
+          "fileName": "header.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\layouts\\standard\\header.jsp"
+        },
+        {
+          "fileName": "page.jsp",
+          "filePath": "src\\main\\webapp\\WEB-INF\\layouts\\standard\\page.jsp"
+        }
+      ]
+    },
+    {
+      "fileTypeName": "JS Source File",
+      "fileTypeDescription": "All JS source files from src/main/webapp directory",
+      "fileItems": [
+        {
+          "fileName": "jquery.js",
+          "filePath": "src\\main\\webapp\\resources\\jquery\\1.6\\jquery.js"
+        },
+        {
+          "fileName": "jquery-cookie.js",
+          "filePath": "src\\main\\webapp\\resources\\jquery-cookie\\1.0\\jquery-cookie.js"
+        }
+      ]
+    },
+    {
+      "fileTypeName": "tiles.xml",
+      "fileTypeDescription": "Apache Tiles config file for views",
+      "fileItems": [
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\admin\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\connect\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\develop\\apps\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\events\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\groups\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\home\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\facebook\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\mail\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\invite\\twitter\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\members\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\oauth\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\reset\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\settings\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\signin\\tiles.xml"
+        },
+        {
+          "fileName": "tiles.xml",
+          "filePath": "src\\main\\webapp\\WEB-INF\\views\\signup\\tiles.xml"
+        }
+      ]
+    }
+  ]
+}

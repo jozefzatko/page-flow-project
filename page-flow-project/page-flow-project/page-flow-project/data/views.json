@@ -1,0 +1,248 @@
+{
+  "views": [
+    {
+      "logicalName": "admin/load",
+      "filePath": "src//main//webapp///WEB-INF/views/admin/load.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n\n<h2>Admin: Load Event</h2>\n\n<form method=\"post\">\n<label>NFJS Show ID: </label><input type=\"text\" name=\"showId\"/><br/>\n<input type=\"submit\" />\n</form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "connect/twitterConnect",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/twitterConnect.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<form action=\"<c:url value=\"/connect/twitter\" />\" method=\"POST\">\n\t<div class=\"formInfo\">\n\t\t<h2>Connect to Twitter</h2>\n\t\t<p>Click the button to connect your Greenhouse account with your Twitter account.</p>\n\t</div>\n\t<p><button type=\"submit\"><img src=\"<c:url value=\"/resources/social/twitter/signin.png\" />\"/></button></p>\n\t<fieldset class=\"checkbox\">\n\t\t<label for=\"postTweet\"><input id=\"postTweet\" type=\"checkbox\" name=\"postTweet\" /> Tweet a link to my Greenhouse profile after connecting</label>\n\t</fieldset>\n</form>\n",
+      "links": [
+        "/resources/social/twitter/signin.png",
+        "/connect/twitter"
+      ]
+    },
+    {
+      "logicalName": "connect/twitterConnected",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/twitterConnected.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"disconnect\" action=\"<c:url value=\"/connect/twitter\"/>\" method=\"post\">\n\t<div class=\"formInfo\">\n\t\t<p>\n\t\t\tYour Greenhouse account is connected to your Twitter account.\n\t\t\tClick the button if you wish to disconnect.\n\t\t</p>\n\t</div>\n\t<button type=\"submit\">Disconnect</button>\n\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n</form>\n",
+      "links": [
+        "/connect/twitter"
+      ]
+    },
+    {
+      "logicalName": "connect/facebookConnect",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/facebookConnect.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<c:if test=\"${not empty message}\">\n\t<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form action=\"<c:url value=\"/connect/facebook\" />\" method=\"POST\">\n\t<div class=\"formInfo\">\n\t\t<h2>Connect to Facebook</h2>\n\t\t<p>Click the button to connect your Greenhouse account with your Facebook account.</p>\n\t</div>\n\t<input type=\"hidden\" name=\"scope\" value=\"email,publish_stream,offline_access\" />\n\t<p><button type=\"submit\"><img src=\"<c:url value=\"/resources/social/facebook/connect_light_medium_short.gif\" />\"/></button></p>\n\t<fieldset class=\"checkbox\">\n\t\t<label for=\"postToWall\"><input id=\"postToWall\" type=\"checkbox\" name=\"postToWall\" /> Post a link to my Greenhouse profile on my wall after connecting</label>\n\t</fieldset>\n\t<fieldset class=\"checkbox\">\n\t\t<label for=\"useProfilePicture\"><input id=\"useProfilePicture\" type=\"checkbox\" name=\"useProfilePicture\" /> Use my Facebook profile picture as my Greenhouse profile picture</label>\n\t</fieldset>\n</form>\n",
+      "links": [
+        "/resources/social/facebook/connect_light_medium_short.gif",
+        "/connect/facebook"
+      ]
+    },
+    {
+      "logicalName": "connect/facebookConnected",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/facebookConnected.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"disconnect\" method=\"post\">\n\t<div class=\"formInfo\">\n\t\t<p>\n\t\t\tYour Greenhouse account is connected to your Facebook account.\n\t\t\tClick the button if you wish to disconnect.\n\t\t</p>\n\t</div>\n\t<button type=\"submit\">Disconnect</button>\t\n\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n</form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "connect/linkedinConnect",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/linkedInConnect.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<form action=\"<c:url value=\"/connect/linkedin\" />\" method=\"POST\">\n\t<div class=\"formInfo\">\n\t\t<h2>Connect to LinkedIn</h2>\n\t\t<p>Click the button to connect your Greenhouse account with your LinkedIn account.</p>\n\t</div>\n\t<input id=\"signin\" type=\"image\" src=\"<c:url value=\"/resources/social/linkedin/connectWithLinkedIn_small.png\" />\" />\n</form>\n",
+      "links": [
+        "/connect/linkedin",
+        "/resources/social/linkedin/connectWithLinkedIn_small.png"
+      ]
+    },
+    {
+      "logicalName": "connect/linkedinConnected",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/linkedInConnected.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"disconnect\" action=\"<c:url value=\"/connect/linkedin\"/>\" method=\"post\">\n\t<div class=\"formInfo\">\n\t\t<p>\n\t\t\tYour Greenhouse account is connected to your LinkedIn account.\n\t\t\tClick the button if you wish to disconnect.\n\t\t</p>\n\t</div>\n\t<button type=\"submit\">Disconnect</button>\n\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n</form>\n",
+      "links": [
+        "/connect/linkedin"
+      ]
+    },
+    {
+      "logicalName": "connect/tripitConnect",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/tripItConnect.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<form action=\"<c:url value=\"/connect/tripit\" />\" method=\"POST\">\n\t<div class=\"formInfo\">\n\t\t<h2>Connect to TripIt</h2>\n\t\t<p>\n\t\t\tClick the button to connect your Greenhouse account with your TripIt account.\n\t\t\tYou will be taken to TripIt for authorization and then will be brought back here.\n\t\t</p>\n\t</div>\n\t<input type=\"submit\" id=\"signin\" value=\"Connect with TripIt\"/>\n</form>\n",
+      "links": [
+        "/connect/tripit"
+      ]
+    },
+    {
+      "logicalName": "connect/tripitConnected",
+      "filePath": "src//main//webapp///WEB-INF/views/connect/tripItConnected.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"disconnect\" action=\"<c:url value=\"/connect/tripit\"/>\" method=\"post\">\n\t<div class=\"formInfo\">\n\t\t<p>\n\t\t\tYour Greenhouse account is connected to your TripIt account.\n\t\t\tClick the button if you wish to disconnect.\n\t\t</p>\n\t</div>\n\t<input type=\"submit\" value=\"Disconnect\" />\n\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n</form>\n",
+      "links": [
+        "/connect/tripit"
+      ]
+    },
+    {
+      "logicalName": "develop/apps",
+      "filePath": "src//main//webapp///WEB-INF/views/develop/apps/list.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib prefix=\"fn\" uri=\"http://java.sun.com/jsp/jstl/functions\" %>\n<%@ taglib tagdir=\"/WEB-INF/tags/develop/apps\" prefix=\"apps\" %>\n\n<h2>Greenhouse Apps</h2>\n\n<c:if test=\"${fn:length(appSummaryList) == 0}\">\n<p>You have not registered any apps.</p>\n</c:if>\n<c:if test=\"${fn:length(appSummaryList) > 0}\">\n<p>You have registered the following apps:</p>\n</c:if>\n\n<c:forEach var=\"appSummary\" items=\"${appSummaryList}\">\n<ul class=\"listings\">\n\t<li><apps:summary value=\"${appSummary}\" /></li>\n</ul>\n</c:forEach>\n\n<a href=\"<c:url value=\"/develop/apps/new\" />\">Register App</a>\n",
+      "links": [
+        "/develop/apps/new"
+      ]
+    },
+    {
+      "logicalName": "develop/apps/new",
+      "filePath": "src//main//webapp///WEB-INF/views/develop/apps/new.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<c:url var=\"actionUrl\" value=\"/develop/apps\" />\n<form:form action=\"${actionUrl}\" method=\"post\" modelAttribute=\"appForm\">\n\t<div class=\"formInfo\">\n\t\t<h2>Register App</h2>\n\t\t<s:bind path=\"*\">\n\t\t<c:if test=\"${status.error}\">\n\t\t<div class=\"error\">Unable to register. Please fix the errors below and resubmit.</div>\n\t\t</c:if>\n\t\t</s:bind>\n\t\t<p>Connect one of your apps to Greenhouse by completing the following form.</p>  \t\t\n\t</div>\n\t\n\t<jsp:include page=\"appFormFragment.jsp\" />\n\t\n\t<p><button type=\"submit\">Register</button></p>\n</form:form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "develop/apps/edit",
+      "filePath": "src//main//webapp///WEB-INF/views/develop/apps/edit.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<c:url var=\"actionUrl\" value=\"/develop/apps/${slug}\" />\n<form:form action=\"${actionUrl}\" method=\"post\" modelAttribute=\"appForm\">\n\t<div class=\"formInfo\">\n\t\t<h2>Edit App</h2>\n\t\t<s:bind path=\"*\">\n\t\t<c:if test=\"${status.error}\">\n\t\t<div class=\"error\">Unable to save edits. Please fix the errors below and try again.</div>\n\t\t</c:if>\n\t\t</s:bind>\n \t</div>\n\t\n\t<jsp:include page=\"appFormFragment.jsp\" />\n\t\n\t<input type=\"hidden\" name=\"_method\" value=\"PUT\" />\n\t<p><button type=\"submit\">Save</button></p>\n</form:form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "develop/apps/view",
+      "filePath": "src//main//webapp///WEB-INF/views/develop/apps/view.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib tagdir=\"/WEB-INF/tags/develop/apps\" prefix=\"apps\" %>\n\n<h2>App Settings</h2>\n\n<apps:summary value=\"${app.summary}\" />\n\n<dl>\n\t<dt>API key</dt>\n\t<dd>${app.apiKey}</dd>\n\t<dt>Secret</dt>\n\t<dd>${app.secret}</dd>\n</dl>\n\n<form id=\"deleteApp\" action=\"<c:url value=\"/develop/apps/${slug}\" />\" method=\"post\">\n\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n\t<p><button type=\"submit\">Delete</button></p>\n</form>\n\n<a href=\"<c:url value=\"/develop/apps/edit/${slug}\" />\">Edit details</a>\n",
+      "links": [
+        "/develop/apps/${slug}",
+        "/develop/apps/edit/${slug}"
+      ]
+    },
+    {
+      "logicalName": "events/list",
+      "filePath": "src//main//webapp///WEB-INF/views/events/list.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib tagdir=\"/WEB-INF/tags/dates\" prefix=\"d\" %>\n\n<h2>Upcoming Events</h2>\n\n<c:if test=\"${not empty eventList}\">\n<dl class=\"listings\">\n<c:forEach items=\"${eventList}\" var=\"event\">\n\t<s:url value=\"/groups/{group}/events/{year}/{month}/{slug}\" var=\"eventUrl\">\n\t\t<s:param name=\"group\" value=\"${event.groupSlug}\" />\n\t\t<s:param name=\"year\" value=\"${event.startTime.year}\" />\n\t\t<s:param name=\"month\" value=\"${event.startTime.monthOfYear}\" />\n\t\t<s:param name=\"slug\" value=\"${event.slug}\" />\n\t</s:url>\n\t<dt>\n\t\t<a href=\"${eventUrl}\"><c:out value=\"${event.title}\" /></a><br/>\n\t</dt>\n\t<dd>\n\t\t<d:dateRange startTime=\"${event.startTime}\" endTime=\"${event.endTime}\" timeZone=\"${event.timeZone}\" /> at <c:out value=\"${event.location}\" /> <br/>\n\t\t<c:out value=\"${event.description}\" escapeXml=\"true\" />\t\t\n\t</dd>\t\n</c:forEach>\n</dl>\n</c:if>\n",
+      "links": []
+    },
+    {
+      "logicalName": "groups/view",
+      "filePath": "src//main//webapp///WEB-INF/views/groups/view.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<h2><c:out value=\"${group.name}\" /></h2>\n<p><c:out value=\"${group.description}\" escapeXml=\"true\" /></p>\n\n<div id=\"fb-root\"></div>\n<fb:like></fb:like>\n\n<facebook:init appId=\"${facebookAppId}\" />\n",
+      "links": []
+    },
+    {
+      "logicalName": "groups/event",
+      "filePath": "src//main//webapp///WEB-INF/views/groups/event.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/fmt\" prefix=\"fmt\" %>\n<%@ taglib tagdir=\"/WEB-INF/tags/dates\" prefix=\"d\" %>\n\n<h2><c:out value=\"${event.title}\"/></h2>\n<dl>\n\t<dt>When</dt>\n\t<dd><d:dateRange startTime=\"${event.startTime}\" endTime=\"${event.endTime}\" timeZone=\"${event.timeZone}\" /></dd>\n\t<dt>Where</dt>\n\t<dd><c:out value=\"${event.location}\" /></dd>\n\t<dt>Description</dt>\n\t<dd><c:out value=\"${event.description}\" escapeXml=\"true\" /></dd>\n</dl>\n<p>\n\tGrab the Greenhouse mobile client to follow this Event as it happens.\n</p>\n<div id=\"appIcons\" style=\"padding: 0 0 20px 0 ;\">\n\t<a href=\"http://itunes.apple.com/us/app/greenhouse/id395862873\"><img src=\"<c:url value=\"/resources/mobile/icon-apple-appstore.gif\" />\" /></a>\n\t<a href=\"https://market.android.com/details?id=com.springsource.greenhouse\"><img src=\"<c:url value=\"/resources/mobile/icon-android-marketplace.gif\" />\" /></a>\n</div>\n",
+      "links": [
+        "/resources/mobile/icon-android-marketplace.gif",
+        "/resources/mobile/icon-apple-appstore.gif"
+      ]
+    },
+    {
+      "logicalName": "homeNotSignedIn",
+      "filePath": "src//main//webapp///WEB-INF/views/home/contentNotSignedIn.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<div id=\"intro\">\n\t<h2>Welcome to the Greenhouse!</h2>\n\t<p>\n\t\tWe make it fun to be an application developer.\n\t</p>\n\t<p>\n\t\tWe help you connect with fellow developers and take advantage of everything the Spring community has to offer.\t\n\t</p>\n</div>\n",
+      "links": []
+    },
+    {
+      "logicalName": "homeSignedIn",
+      "filePath": "src//main//webapp///WEB-INF/views/home/contentSignedIn.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<div id=\"intro\">\n\t<h2>Welcome to the Greenhouse!</h2>\n\t<p>\n\t\tWe make it fun to be an application developer.\n\t</p>\n\t<p>\n\t\tWe help you connect with fellow developers and take advantage of everything the Spring community has to offer.\t\n\t</p>\n\t<p>\n\t\tIf this is your first time here, start by <a href=\"<c:url value=\"/settings\"/>\">connecting your Greenhouse account</a> to your social networks, then grab the mobile client.\n\t</p>\n</div>\n<div id=\"appIcons\">\n\t<a href=\"http://itunes.apple.com/us/app/greenhouse/id395862873\"><img src=\"<c:url value=\"/resources/mobile/icon-apple-appstore.gif\" />\" /></a>\n\t<a href=\"https://market.android.com/details?id=com.springsource.greenhouse\"><img src=\"<c:url value=\"/resources/mobile/icon-android-marketplace.gif\" />\" /></a>\n</div>\n",
+      "links": [
+        "/settings",
+        "/resources/mobile/icon-android-marketplace.gif",
+        "/resources/mobile/icon-apple-appstore.gif"
+      ]
+    },
+    {
+      "logicalName": "invite/facebook",
+      "filePath": "src//main//webapp///WEB-INF/views/invite/facebook/invite.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n<%@ taglib tagdir=\"/WEB-INF/tags/urls\" prefix=\"u\" %>\n\n<h2>Invite Facebook Friends</h2>\n\n<c:if test=\"${not empty friends}\">\n<p>Some of your friends are already in the Greenhouse</p>\n<ul>\n\t<c:forEach var=\"friend\" items=\"${friends}\">\n\t<li><a href=\"<s:url value=\"/members/${friend.id}\" />\">${friend.label}</a></li>\n\t</c:forEach>\n</ul>\n<h5>Invite more...</h5>\n</c:if>\n\n<c:if test=\"${empty friends}\">\n<p>None of your friends have Greenhouse accounts connected to Facebook</p>\n<h5>Invite some...</h5>\n</c:if>\n\n<fb:serverfbml style=\"width: 625px;\">\n\t<script type=\"text/fbml\">\n\t\t<fb:fbml>\n\t\t\t<fb:request-form action='<u:absoluteUrl value=\"/invite/facebook/request-form\" />' method=\"POST\" invite=\"true\" type=\"Greenhouse\" content=\"Join me in the Greenhouse! It's the best way to exchange ideas and information with other Spring application developers. <fb:req-choice url='http://greenhouse.springsource.org' label='Join the Greenhouse' />\">\n\t\t\t\t<fb:multi-friend-selector bypass=\"cancel\" email_invite=\"false\" import_external_friends=\"false\" cols=\"4\" showborder=\"false\" actiontext=\"Invite your Facebook friends to join Greenhouse\"></fb:multi-friend-selector>\n\t\t\t</fb:request-form>\n\t\t</fb:fbml>\n\t</script>\n</fb:serverfbml>\n\n<facebook:init appId=\"${facebookAppId}\" />\n",
+      "links": [
+        "/members/${friend.id}"
+      ]
+    },
+    {
+      "logicalName": "invite/mail",
+      "filePath": "src//main//webapp///WEB-INF/views/invite/mail/invite.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<c:url value=\"/invite/mail\" var=\"inviteUrl\" />\n<form:form action=\"${inviteUrl}\" method=\"post\" modelAttribute=\"mailInviteForm\">\n\t<div class=\"formInfo\">\n  \t\t<h2>Email Invites</h2>\n  \t\t<!-- TODO clean this up -->\n  \t\t<s:bind path=\"*\">\n\t\t<c:if test=\"${status.error}\">\n\t\t<div class=\"error\">\n\t\t\tUnable to send invite.\n\t\t\t<s:bind path=\"invitees\">\n\t\t  \t<c:if test=\"${status.error && status.errorCode == 'typeMismatch'}\">\n\t\t  \tPlease ensure your invitees have been entered using the correct format and resubmit.\n\t\t  \t<c:set var=\"errorDisplayed\" value=\"true\" />\n\t\t  \t</c:if>\n \t\t\t</s:bind>\n \t\t\t<c:if test=\"${!errorDisplayed}\">\n\t\t  \tAll fields are required.\n \t\t\t</c:if>\n \t\t</div>\n\t  \t</c:if>\n  \t\t</s:bind>  \t\t\n  \t\t<p>Send a personal Greenhouse invitation to your friends and colleagues.</p>  \t\t\n\t</div>\n\t<fieldset>\n\t\t<legend>Tell us who you'd like to send an invite to</legend>\n\t\t<form:label path=\"invitees\">Invitees, separated by commas in format <i>firstName lastName &lt;email&gt;</i></form:label>\n\t\t<form:textarea path=\"invitees\" cols=\"60\" />\n\t</fieldset>\n\t<fieldset>\n\t\t<legend>Personalize your invitation</legend>\n\t\t<form:label path=\"invitationText\">Invitation Text</form:label>\n\t\t<form:textarea path=\"invitationText\" cols=\"60\" rows=\"10\" />\n\t</fieldset>\n\t<p><button type=\"submit\">Send</button></p>\t\n</form:form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "invite",
+      "filePath": "src//main//webapp///WEB-INF/views/invite/invite.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<h2>Invite friends to the Greenhouse</h2>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\t\t\n<ul class=\"listings\">\n\t<li class=\"listing\">\t\n\t\t<img src=\"<c:url value=\"/resources/social/twitter/logo.png\" />\" alt=\"Twitter Connect Logo\"  style=\"max-height: 43px; max-width: 88px;\" />\n\t\tSee which of your <a href=\"<c:url value=\"/invite/twitter\" />\">Twitter followers</a> are in the Greenhouse\n\t</li> \n\t<li class=\"listing\">\n\t\t<img src=\"<c:url value=\"/resources/social/facebook/connect_light_medium_short.gif\" />\" alt=\"Facebook Connect Logo\" id=\"fb_login_image\" style=\"max-height: 43px; max-width: 88px;\"/>\t\t\n\t\tInvite your <a class=\"button large\" href=\"<c:url value=\"/invite/facebook\"/>\" onclick=\"FB.requireSessionThenGoTo('<c:url value=\"/invite/facebook\"/>');return false;\">Facebook friends</a>\n\t\t  <c:if test=\"${not empty facebookUserId}\">\n          (you are currently logged into Facebook as <fb:name linked=\"false\" useyou=\"false\" uid=\"${facebookUserId}\"></fb:name>.\n          <a onclick=\"FB.logoutThenGoTo('<c:url value=\"/signout\"/>');return false;\" href=\"#\">Not you?</a>)\n          </c:if>          \n\t</li>\n\t<li class=\"listing\">\n\t\t<img src=\"<c:url value=\"/resources/social/google/logo-gmail.png\" />\" alt=\"Gmail Logo \" style=\"max-height: 43px; max-width:88px;\" />\n\t\tInvite friends via <a href=\"<c:url value=\"/invite/mail\" />\">email</a>\n\t</li>\t\n</ul>\n\n<facebook:init appId=\"${facebookAppId}\" />\n<script>\nif(FB) {\n\tFB.requireSessionThenGoTo = function(url) {\n\t\tFB.getLoginStatus(function(response) {\n\t\t\tif (response.session) { \n\t\t\t\twindow.location = url; \n\t\t\t} else {\n\t\t\t\tFB.login(function(response) {\n\t\t\t\t\tif (response.session) {\n\t\t\t\t\t\twindow.location = url;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t}\n\t\t});\n\t};\n\t\n\tFB.logoutThenGoTo = function(url) {\n\t\tFB.logout(function(response) { \n\t\t\twindow.location = url; \n\t\t});\n\t};\n}\n</script>\n",
+      "links": [
+        "/invite/twitter",
+        "/resources/social/facebook/connect_light_medium_short.gif",
+        "/invite/mail",
+        "/invite/facebook",
+        "/resources/social/google/logo-gmail.png",
+        "/resources/social/twitter/logo.png"
+      ]
+    },
+    {
+      "logicalName": "invite/accept",
+      "filePath": "src//main//webapp///WEB-INF/views/invite/accept.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<c:url value=\"/invite\" var=\"inviteUrl\" />\n<!-- TODO use Web Flow here so invitee and sentBy state can be preserved through the accept flow -->\n<c:if test=\"${invitee != null}\">\n<h2>Welcome to the Greenhouse, ${invitee.firstName}!</h2>\n</c:if>\n\n<c:url value=\"/invite/accept\" var=\"acceptUrl\" />\n<form:form action=\"${acceptUrl}\" method=\"post\" modelAttribute=\"signupForm\">\n\t<div class=\"formInfo\">\n\t\t<h2>Accept Invite</h2>\n  \t\t<s:bind path=\"*\">\n  \t\t<c:choose>\n  \t\t<c:when test=\"${status.error}\">\n  \t\t\t<div class=\"error\">Unable to sign up. Please fix the errors below and resubmit.</div>\n  \t\t</c:when>\n  \t\t</c:choose>\t\t\t\n  \t\t</s:bind>\n\t\t<p>\n\t\t\t<c:if test=\"${sentBy != null}\">\n\t\t\tYou've been invited to the Greenhouse by <a href=\"<c:url value=\"/members/${sentBy.id}\" />\">${sentBy.label}</a>.\n\t\t\t</c:if>\n\t\t\tAccept your invitation by completing the signup form below.\n\t\t</p>\n\t</div>\n\t<%@ include file=\"../signup/signupForm.jspf\" %>\n\t<input type=\"hidden\" name=\"token\" value=\"${token}\" />\n\t<p><button type=\"submit\">Accept Invite and Sign Up</button></p>\n</form:form>\n",
+      "links": [
+        "/members/${sentBy.id}"
+      ]
+    },
+    {
+      "logicalName": "invite/twitter",
+      "filePath": "src//main//webapp///WEB-INF/views/invite/twitter/friendFinder.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<form id=\"friendFinder\" action=\"<c:url value=\"/invite/twitter\" />\" method=\"post\">\n\t<div class=\"formInfo\">\n\t\t<h2>Find Twitter Friends</h2>\n  \t\t<p>See who you follow is also a member of the Greenhouse.</p>\n\t</div>\n  \t<fieldset>\n\t\t<label for=\"username\">Twitter Username</label>\n\t\t<input id=\"username\" name=\"username\" type=\"text\" size=\"25\" value=\"${username}\" />\n\t</fieldset>\n\t<p>\n\t\t<button type=\"submit\">Find</button>\n\t</p>\n</form>\n\n<!-- TODO consider using load here; apply a spinner effect; make progressive -->\n<script type=\"text/javascript\">\n$(document).ready(function() {\n\t$(\"#friendFinder\").submit(function() {\n\t\t$.post(this.action, $(this).serialize(), function(friends) {\n\t\t\t$(\"#friends\").html(friends);\n\t\t});\t\t\n\t\treturn false;\n\t});\n});\n</script>\n\n<div id=\"friends\">\n</div>\n",
+      "links": [
+        "/invite/twitter"
+      ]
+    },
+    {
+      "logicalName": "members/view",
+      "filePath": "src//main//webapp///WEB-INF/views/members/view.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<div id=\"profile\" class=\"listing\">\n\t<img src=\"${profile.pictureUrl}\" alt=\"Profile Picture\" />\n\t<h2><c:out value=\"${profile.displayName}\" /></h2>\n\t<ul id=\"connectedProfiles\">\n\t\t<c:forEach var=\"connectedProfile\" items=\"${connectedProfiles}\">\n\t\t<li><a href=\"${connectedProfile.url}\">${connectedProfile.name}</a></li>\n\t\t</c:forEach>\n\t</ul>\n\t<fb:like></fb:like>\n</div>\n<div id=\"fb-root\"></div>\n\n<facebook:init appId=\"${facebookAppId}\" />\n",
+      "links": []
+    },
+    {
+      "logicalName": "oauth/confirmAccess",
+      "filePath": "src//main//webapp///WEB-INF/views/oauth/confirmAccess.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<h2>Grant access</h2>\n\n<p>The application <b>${clientApp.summary.name}</b> would like the ability to read and update your data on Greenhouse.</p>\n\n<c:url value=\"/oauth/authorize\" var=\"authorize_url\" />\n<form action=\"${authorize_url}\" method=\"post\">\n\t<input name=\"user_oauth_approval\" value=\"true\" type=\"hidden\" />\n\t<p><button type=\"submit\">Authorize</button></p>\n</form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "reset",
+      "filePath": "src//main//webapp///WEB-INF/views/reset/reset.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n\n<c:if test=\"${not empty message}\">\n\t<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"resetPassword\" method=\"post\">\n\t<div class=\"formInfo\">\n  \t\t<h2>Reset Password</h2>\n\t</div>\n\t<fieldset>\n\t  \t<label for=\"signin\">Username or Email <c:if test=\"${signin.error}\"><span class=\"error\">${signin.errorMessage}</span></c:if></label>\n\t  \t<input id=\"siginin\" type=\"text\" name=\"signin\" value=\"${signin.value}\" />\n\t</fieldset>\n\t<p><button type=\"submit\">Submit</button></p>\n</form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "reset/changePassword",
+      "filePath": "src//main//webapp///WEB-INF/views/reset/changePassword.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<form:form id=\"resetPassword\" method=\"post\" modelAttribute=\"changePasswordForm\">\n\t<div class=\"formInfo\">\n  \t\t<h2>Reset password</h2>\n\t</div>\n  \t<fieldset>\n  \t\t<form:label path=\"password\">Password (at least 6 characters) <form:errors path=\"password\" cssClass=\"error\" /></form:label>\n  \t\t<form:password path=\"password\" />\n  \t\t<form:label path=\"confirmPassword\">Confirm Password</form:label>\n  \t\t<form:password path=\"confirmPassword\" />\n  \t\t<input type=\"hidden\" value=\"${token}\" />\n\t</fieldset>\n\t<p><button type=\"submit\">Reset</button></p>\n</form:form>\n",
+      "links": []
+    },
+    {
+      "logicalName": "reset/invalidToken",
+      "filePath": "src//main//webapp///WEB-INF/views/reset/invalidToken.jsp",
+      "content": "<%@ page session=\"false\" %>\n<h2>Invalid reset password token</h2>\n",
+      "links": []
+    },
+    {
+      "logicalName": "settings",
+      "filePath": "src//main//webapp///WEB-INF/views/settings/settings.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n\n<h2>Settings</h2>\n\n<h3>Connected Accounts</h3>\n<ul id=\"connectedAccounts\" class=\"listings\">\n\t<li class=\"listing\">\n\t\t<h4><img src=\"<c:url value=\"/resources/social/twitter/logo.png\" />\" alt=\"Twitter\"></h4>\n\t\t<a href=\"<c:url value=\"/connect/twitter\" />\">Connect to Twitter</a>\t\n\t</li>\n\t<li class=\"listing\">\n\t\t<h4><img src=\"<c:url value=\"/resources/social/facebook/logo.png\" />\" alt=\"Facebook\"></h4>\n\t\t<a href=\"<c:url value=\"/connect/facebook\" />\">Connect to Facebook</a>\t\n\t</li>\n\t<li class=\"listing\">\n\t\t<h4><img src=\"<c:url value=\"/resources/social/linkedin/logo.png\" />\" alt=\"Linked In\"></h4>\n\t\t<a href=\"<c:url value=\"/connect/linkedin\" />\">Connect to LinkedIn</a>\t\n\t</li>\n\t<li class=\"listing\">\n\t\t<h4><img src=\"<c:url value=\"/resources/social/tripit/logo.png\" />\" alt=\"TripIt\"></h4>\n\t\t<a href=\"<c:url value=\"/connect/tripit\" />\">Connect to TripIt</a>\t\n\t</li>\n</ul>\n\n<div id=\"connectedApps\">\n\t<h3>Connected Apps</h3>\n\t<ul class=\"listings\">\n\t\t<c:forEach var=\"app\" items=\"${apps}\">\n\t\t<li>\n\t\t\t<h4>${app.name}</h4>\n\t\t\t<form action=\"settings/apps/${app.accessToken}\" method=\"post\">\n\t\t\t\t<p><button type=\"submit\">Disconnect</button></p>\n\t\t\t\t<input type=\"hidden\" name=\"_method\" value=\"DELETE\" />\n\t\t\t</form>\n\t\t</li>\n\t\t</c:forEach>\n\t</ul>\n</div>\n",
+      "links": [
+        "/resources/social/linkedin/logo.png",
+        "/connect/twitter",
+        "/resources/social/tripit/logo.png",
+        "/connect/tripit",
+        "/resources/social/facebook/logo.png",
+        "/connect/linkedin",
+        "/resources/social/twitter/logo.png",
+        "/connect/facebook"
+      ]
+    },
+    {
+      "logicalName": "signin",
+      "filePath": "src//main//webapp///WEB-INF/views/signin/signin.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/spring-social/facebook/tags\" prefix=\"facebook\" %>\n\n<c:if test=\"${not empty message}\">\n\t<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<form id=\"signin\" action=\"<c:url value=\"/signin/authenticate\" />\" method=\"post\">\n\t<div class=\"formInfo\">\n  \t\t<h2>Greenhouse Sign In</h2>\n  \t\t<c:if test=\"${not empty param['error']}\">\n  \t\t<div class=\"error\">\n  \t\t\tYour sign in information was incorrect.\n  \t\t\tPlease try again<c:if test=\"${!currentDevice.mobile}\"> or <a href=\"<c:url value=\"/signup\" />\">sign up</a></c:if>.\n  \t\t</div>\n \t \t</c:if>\n\t</div>\n\t<fieldset>\n\t\t<label for=\"login\">Username or Email</label>\n\t\t<input id=\"login\" name=\"j_username\" type=\"text\" size=\"25\" autocorrect=\"off\" autocapitalize=\"off\" <c:if test=\"${not empty signinErrorMessage}\">value=\"${SPRING_SECURITY_LAST_USERNAME}\"</c:if> />\n\t\t<label for=\"password\">Password</label>\n\t\t<input id=\"password\" name=\"j_password\" type=\"password\" size=\"25\" />\t\n\t</fieldset>\n\t<p><button type=\"submit\">Sign In</button></p>\n\t<p><a href=\"<c:url value=\"/reset\" />\">Forgot your password?</a></p>\n</form>\n\n<c:if test=\"${!currentDevice.mobile}\">\n<form id=\"facebook_signin\" action=\"<c:url value=\"/signin/facebook\" />\" method=\"post\">\n\t<button type=\"submit\">Sign in with Facebook</button>\n</form>\n<form id=\"twitter_signin\" action=\"<c:url value=\"/signin/twitter\" />\" method=\"post\">\n\t<button type=\"submit\">Sign in with Twitter</button>\n</form>\n<form id=\"linkedin_signin\" action=\"<c:url value=\"/signin/linkedin\" />\" method=\"post\">\n\t<button type=\"submit\">Sign in with LinkedIn</button>\n</form>\n</c:if>\n",
+      "links": [
+        "/signin/linkedin",
+        "/signin/twitter",
+        "/signin/authenticate",
+        "/reset",
+        "/signup",
+        "/signin/facebook"
+      ]
+    },
+    {
+      "logicalName": "signup",
+      "filePath": "src//main//webapp///WEB-INF/views/signup/signup.jsp",
+      "content": "<%@ page session=\"false\" %>\n<%@ taglib uri=\"http://java.sun.com/jsp/jstl/core\" prefix=\"c\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags\" prefix=\"s\" %>\n<%@ taglib uri=\"http://www.springframework.org/tags/form\" prefix=\"form\" %>\n\n<c:if test=\"${not empty message}\">\n<div class=\"${message.type.cssClass}\">${message.text}</div>\n</c:if>\n\n<c:url value=\"/signup\" var=\"signupUrl\" />\n<form:form id=\"signup\" action=\"${signupUrl}\" method=\"post\" modelAttribute=\"signupForm\">\n\t<div class=\"formInfo\">\n  \t\t<h2>Sign Up at the Greenhouse</h2>\n  \t\t<s:bind path=\"*\">\n  \t\t<c:choose>\n  \t\t<c:when test=\"${status.error}\">\n  \t\t\t<div class=\"error\">Unable to sign up. Please fix the errors below and resubmit.</div>\n  \t\t</c:when>\n  \t\t</c:choose>\t\t\t\n  \t\t</s:bind>\n  \t\t<p>Join Greenhouse to connect with other application developers using Spring.</p>  \t\t\n\t</div>\n\t<%@ include file=\"signupForm.jspf\" %>\n\t<p><button type=\"submit\">Sign Up</button></p>\n</form:form>\n",
+      "links": []
+    }
+  ]
+}

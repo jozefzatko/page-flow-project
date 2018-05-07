@@ -1,0 +1,1630 @@
+{
+  "pageFlows": [
+    {
+      "id": 1,
+      "sequence": "/&GET /settings&GET",
+      "weight": 45.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sequence": "/&GET /signin&GET",
+      "weight": 32.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sequence": "/&GET /signup&GET",
+      "weight": 25.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "sequence": "/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET",
+      "weight": 22.0,
+      "weightOfSubsequences": 12.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sequence": "/&GET /develop/apps&GET",
+      "weight": 18.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sequence": "/develop/apps&GET /develop/apps/{slug}&GET",
+      "weight": 17.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sequence": "/&GET /invite&GET",
+      "weight": 15.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/members/@self",
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sequence": "/develop/apps/new&GET /develop/apps&POST",
+      "weight": 15.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "sequence": "/invite&GET /invite/twitter&GET /invite/twitter&POST",
+      "weight": 13.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "sequence": "/&GET /signup&GET /signup&POST",
+      "weight": 13.0,
+      "weightOfSubsequences": 2.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "sequence": "/invite&GET /invite/mail&GET",
+      "weight": 13.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "sequence": "/&GET /groups/{group}/events/{year}/{month}/{slug}&GET",
+      "weight": 12.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "sequence": "/develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 11.0,
+      "weightOfSubsequences": 4.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "sequence": "/invite&GET /invite/mail&GET /invite/mail&POST",
+      "weight": 10.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "sequence": "/&GET /develop/apps&GET /develop/apps/{slug}&GET",
+      "weight": 9.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "sequence": "/&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET",
+      "weight": 8.0,
+      "weightOfSubsequences": 2.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "sequence": "/&GET /invite&GET /invite/twitter&GET /invite/twitter&POST",
+      "weight": 8.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "sequence": "/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST",
+      "weight": 8.0,
+      "weightOfSubsequences": 2.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "sequence": "/develop/apps/{slug}&GET /develop/apps&GET",
+      "weight": 8.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "sequence": "/&GET /signup&GET /signup&POST /signup&POST",
+      "weight": 7.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "sequence": "/&GET /signin&GET /reset&GET",
+      "weight": 7.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "sequence": "/develop/apps/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 7.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "sequence": "/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 6.0,
+      "weightOfSubsequences": 2.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "sequence": "/settings&GET /invite&GET",
+      "weight": 6.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "sequence": "/&GET /&GET",
+      "weight": 6.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "sequence": "/&GET /develop/apps&GET /develop/apps/{slug}&GET /develop/apps&GET",
+      "weight": 5.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "sequence": "/&GET /invite&GET /invite/mail&GET",
+      "weight": 5.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/members/@self"
+          ]
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "sequence": "/reset&GET /reset&POST",
+      "weight": 5.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/reset",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "sequence": "/settings&GET /settings&GET",
+      "weight": 5.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "sequence": "/&GET /develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "sequence": "/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "sequence": "/&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST",
+      "weight": 4.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/members/@self"
+          ]
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "sequence": "/groups/{group}/events/{year}/{month}/{slug}&GET /invite&GET /invite/mail&GET /invite/mail&POST",
+      "weight": 4.0,
+      "weightOfSubsequences": 1.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "sequence": "/settings&GET /invite&GET /settings&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "sequence": "/&GET /signup&GET /signin&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "sequence": "/develop/apps&GET /settings&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "sequence": "/settings&GET /develop/apps&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "sequence": "/signin&GET /signin&GET",
+      "weight": 4.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "sequence": "/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "sequence": "/signin&GET /&GET /signup&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "sequence": "/signup&GET /signup&POST /&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "sequence": "/develop/apps/{slug}&GET /settings&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "sequence": "/invite/mail&GET /develop/apps&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "sequence": "/develop/apps&GET /invite&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "sequence": "/invite&GET /develop/apps&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "sequence": "/develop/apps/edit/{slug}&GET /develop/apps&GET",
+      "weight": 3.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "sequence": "/&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&POST /invite/mail&POST /invite/mail&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/members/@self"
+          ]
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "sequence": "/develop/apps&GET /groups/{group}/events/{year}/{month}/{slug}&GET /invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&POST /invite/mail&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "sequence": "/&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "sequence": "/invite&GET /invite/twitter&GET /invite/twitter&POST /invite/twitter&POST /invite/twitter&POST /invite/twitter&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "sequence": "/&GET /signup&GET /signup&POST /signup&POST /signup&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "sequence": "/develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "sequence": "/invite&GET /develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps/{slug}&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "sequence": "/invite&GET /invite/mail&GET /invite/mail&POST /invite/mail&GET /&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "sequence": "/develop/apps&GET /develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps/{slug}&GET /develop/apps/{slug}&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "sequence": "/&GET /signin&GET /reset&GET /reset&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "sequence": "/signup&GET /signup&POST /&GET /settings&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "sequence": "/&GET /signin&GET /&GET /signup&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "sequence": "/invite&GET /invite/twitter&GET /invite/twitter&POST /develop/apps&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite/twitter",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "sequence": "/develop/apps&GET /develop/apps/new&GET /develop/apps&POST /develop/apps&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/new",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "sequence": "/reset&GET /reset&POST /reset&POST",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/reset",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "POST"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "POST"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "sequence": "/settings&GET /&GET /settings&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "sequence": "/&GET /&GET /signin&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "sequence": "/&GET /settings&GET /invite&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/events"
+          ]
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET",
+          "ajaxRequests": [
+            "/members/@self",
+            "/events"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "sequence": "/develop/apps&GET /settings&GET /invite&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "sequence": "/settings&GET /settings&GET /develop/apps&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "sequence": "/&GET /signin&GET /signin&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "sequence": "/develop/apps/{slug}&GET /develop/apps/edit/{slug}&GET /develop/apps&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/edit/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "sequence": "/develop/apps/{slug}&GET /develop/apps/{slug}&GET /settings&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "sequence": "/groups/{group}/events/{year}/{month}/{slug}&GET /develop/apps&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/develop/apps",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "sequence": "/&GET /reset&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/reset",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "sequence": "/invite/mail&GET /invite&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/invite/mail",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/invite",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "sequence": "/groups/{group}/events/{year}/{month}/{slug}&GET /groups/{group}/events/{year}/{month}/{slug}&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/groups/{group}/events/{year}/{month}/{slug}",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "sequence": "/signup&GET /&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/signup",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/",
+          "httpMethod": "GET"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "sequence": "/settings&GET /signin&GET",
+      "weight": 2.0,
+      "weightOfSubsequences": 0.0,
+      "pageFlowSteps": [
+        {
+          "requestPath": "/settings",
+          "httpMethod": "GET"
+        },
+        {
+          "requestPath": "/signin",
+          "httpMethod": "GET"
+        }
+      ]
+    }
+  ]
+}
